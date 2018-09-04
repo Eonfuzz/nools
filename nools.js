@@ -2109,7 +2109,7 @@ var FlowContainer = declare({
 
 "use strict";
 var extd = require("./extended"),
-    fs = require("fs"),
+    fs = require("nativescript-node/fs"),
     path = require("path"),
     compile = require("./compile"),
     FlowContainer = require("./flowContainer");
@@ -5806,7 +5806,7 @@ exports.parse = function (src, file) {
 var process=require("__browserify_process");"use strict";
 
 var utils = require("./util.js"),
-    fs = require("fs"),
+    fs = require("nativescript-node/fs"),
     extd = require("../../extended"),
     filter = extd.filter,
     indexOf = extd.indexOf,
